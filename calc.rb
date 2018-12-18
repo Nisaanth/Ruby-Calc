@@ -13,9 +13,14 @@ elsif op == "/"
   puts (num1 / num2)
 elsif op == "*"
   puts (num1 * num2)
+elsif op == "sr"
+  puts (Math.sqrt(num1))
+elsif op == "power"
+  puts (num1 ** 2)
 else 
   puts "Invalid operator"
 end
+
 
 
 
