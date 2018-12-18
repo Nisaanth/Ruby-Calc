@@ -1,6 +1,6 @@
 puts "enter first number: "
 num1 = gets.chomp().to_f
-puts "enter operator: "
+puts "enter operator or if you would like to square root, type: 'sr' or if you would like to square, type: 'power': "
 op = gets.chomp()
 puts "enter second number: "
 num2 = gets.chomp().to_f
